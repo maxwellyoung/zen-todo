@@ -11,7 +11,7 @@ interface TodoItemProps {
 	onDelete: (id: number) => void
 }
 
-const TodoItem: React.FC<TodoItemProps> = ({ todo, onUpdate, onDelete }) => {
+const ToDoItem: React.FC<TodoItemProps> = ({ todo, onUpdate, onDelete }) => {
 	const [editMode, setEditMode] = useState(false)
 	const [task, setTask] = useState(todo.task)
 
@@ -69,4 +69,4 @@ const TodoItem: React.FC<TodoItemProps> = ({ todo, onUpdate, onDelete }) => {
 	)
 }
 
-export default TodoItem
+export default ToDoItem

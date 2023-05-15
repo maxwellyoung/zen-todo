@@ -1,7 +1,7 @@
 'use client'
 
 import React, { useState } from 'react'
-import TodoItem from '../components/ToDoItem'
+import TodoItem from './ToDoItem'
 
 interface Todo {
 	id: number
